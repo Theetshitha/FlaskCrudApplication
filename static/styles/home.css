@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f7f8fa, #eef2f3);
+}
+
+.container {
+    text-align: center;
+    margin: 30px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.add-btn {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
