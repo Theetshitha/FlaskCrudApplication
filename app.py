@@ -52,6 +52,6 @@ def edit_employee(id):
 def delete_employee(id):  
     employees.delete_one({"_id": ObjectId(id)})  
     return redirect(url_for('home'))  
-
+ 
 if __name__ == '__main__':  
     app.run(debug=True)
