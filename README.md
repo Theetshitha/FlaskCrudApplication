@@ -3,7 +3,7 @@
 <strong>Project Name</strong>: Employee Mangement System<br>
 <strong>Motive</strong>: Managing Employees personal and professional records<br>
 <strong>Frontend</strong>: HTML, CSS, JS <br>
-<strong>Backend</strong> : Pyhton, Flask <br>
+<strong>Backend</strong> : Python, Flask <br>
 <strong>Database</strong>: MongoDB <br>
 
 <hr>
