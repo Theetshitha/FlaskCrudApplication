@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <title>Employee Management</title>  
     <link rel="stylesheet" href="/static/styles/home.css">  
-    
+
 </head>  
 <body>  
     <div class="container">  
@@ -24,7 +24,7 @@
                 </tr>  
             </thead>  
             <tbody>  
-               
+                {% for employee in employees %}  
                 <tr>  
                     <td>{{ employee.id }}</td>  
                     <td>{{ employee.name }}</td>  
@@ -38,7 +38,7 @@
                         <button onclick="openDeleteConfirmation('{{ employee._id }}', '{{ employee.id }}', '{{ employee.name }}', '{{ employee.age }}', '{{ employee.phoneNo }}', '{{ employee.department }}', '{{ employee.salary }}', '{{ employee.address }}')">Delete</button>  
                     </td>  
                 </tr>  
-               
+                {% endfor %}  
             </tbody>  
         </table>  
     </div>  
