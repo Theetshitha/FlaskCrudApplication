@@ -1,0 +1,138 @@
+body, html {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+    font-family: 'Arial', sans-serif;  
+    background: linear-gradient(to bottom, #f7e9f3, #e3f2fd);  
+    height: 100vh;  
+    display: flex;  
+    flex-direction: column;  
+}  
+
+nav {  
+    background: linear-gradient(to right, #f7c7d4, #b0e3ff);  
+    height: 50px;  
+    display: flex;  
+    align-items: center;  
+    justify-content: space-around;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}  
+
+nav a {  
+    text-decoration: none;  
+    color: #333;  
+    font-size: 14px;  
+    font-weight: bold;  
+    padding: 5px 10px;  
+    border-radius: 5px;  
+    transition: background 0.3s, color 0.3s;  
+}  
+
+nav a:hover {  
+    background: #ffffff;  
+    color: #007bff;  
+}  
+
+.container {  
+    flex-grow: 1;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+form {  
+    background: #ffffff;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    padding: 20px 30px;  
+    width: 300px;  
+    text-align: center;  
+}  
+
+form input {  
+    width: 94%;  
+    padding: 10px;  
+    margin: 10px 0;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    outline: none;  
+    transition: border-color 0.3s;  
+}  
+
+form input:focus {  
+    border-color: #007bff;  
+}  
+
+form button {  
+    width: 100%;  
+    padding: 10px;  
+    border: none;  
+    background: linear-gradient(to right, #f7c7d4, #b0e3ff);  
+    color: rgb(6, 6, 6);  
+    font-weight: bold;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    margin-top:10px;
+    transition: background 0.3s;  
+    margin-bottom:15px;
+}  
+
+form button:hover {  
+    background: linear-gradient(to right, #b0e3ff, #f7c7d4);  
+}  
+
+form a,  form a li {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px; 
+    transition: color 0.3s;
+}
+
+form a img {
+    margin-top: 2px;
+}
+form a,  form a li {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px; 
+    transition: color 0.3s;
+}
+form a{
+display:flex;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border:1px solid #c9c9c9;
+padding-bottom:8px;
+
+
+}
+
+form a i{
+    color: #007bff;
+    font-size: 25px;
+}
+form a:hover {
+    transition: background 0.3s;
+    background:#ebedeb;
+}
+
+
+
+nav h1 a {  
+    text-decoration: none;  
+    color: #333;  
+    font-size: 20px;  
+    font-weight: bold;  
+}  
+
+
+
+.flash-message {  
+    color: green;  
+    margin-bottom: 20px;  
+}
